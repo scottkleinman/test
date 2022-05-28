@@ -21,4 +21,4 @@ jobs:
       - name: MkDocs gh-deploy
         run: |
           git pull
-          mkdocs gh-deploy --config-file mkdocs.yml --remote-branch gh-pages
+          mkdocs gh-deploy --force --clean --config-file ./mkdocs.yml
