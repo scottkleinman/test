@@ -21,4 +21,4 @@ jobs:
       - name: MkDocs gh-deploy
         run: |
           git pull
-          mkdocs gh-deploy
+          mkdocs gh-deploy --config-file ./lexos/mkdocs.yml --remote-branch gh-pages
