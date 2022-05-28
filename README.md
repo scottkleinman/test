@@ -13,3 +13,7 @@ Simplified the ci.yml file to see if the it will build the site on gh-pages. Rep
 ## Test 3
 
 Added mkdocs to dependencies.
+
+## Test 4
+
+Try boilerplate ci.yml.
