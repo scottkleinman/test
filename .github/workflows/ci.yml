@@ -13,4 +13,9 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-section-index
+      - run: pip install mkdocs-macros-plugin
+      - run: pip install mkdocs-autorefs
+      - run: pip install mkdocstrings
       - run: mkdocs gh-deploy --config-file docs/mkdocs.yml --force
