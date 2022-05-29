@@ -139,8 +139,8 @@ plugins:
         python:
           setup_commands:
             - import sys
-            - sys.path.append("..")
-          selection:
-            new_path_syntax: true
+            # - sys.path.append("..")
+          # selection:
+          #   new_path_syntax: yes
       # watch:
-      # - ../lexos
+      # - ../api_lexos
