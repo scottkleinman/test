@@ -17,5 +17,5 @@ jobs:
       - run: pip install mkdocs-section-index
       - run: pip install mkdocs-macros-plugin
       - run: pip install mkdocs-autorefs
-      - run: pip install mkdocstrings[python-legacy]>=0.18
+      - run: pip install mkdocstrings
       - run: mkdocs gh-deploy --config-file docs/mkdocs.yml --force
